@@ -8,7 +8,7 @@ const unsigned unitsNum = ; // total numbers of points
 UnitTG unitsG[unitsNum+1];
 const unsigned HexDirections = 3;
 const double step3m[HexDirections] = {1., sqrt(3.)/2., .5};
-const unsigned ShiftsNum = HexDirections * 2;
+const unsigned ShiftsNum = 2 + HexDirections * 2;
 const double shifts3[ShiftsNum][HexDirections] = {{1.,0.,0.},{0.,1.,1.},{0.,1.,-1.},{-1.,0.,0.},{0.,-1.,-1.},{0.,-1.,1.},{1.,0.,0.},{0.,1.,1.}};
 const unsigned RowNum = ; // number of layers (must be calculated by unitsNum)
 const double step = ; // distance between points
